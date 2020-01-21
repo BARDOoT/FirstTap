@@ -10,3 +10,5 @@ function startsesh() {
     xmlhttp.open("GET", "../php/session.php?q=", true);
     xmlhttp.send(); 
 }
+
+function getPlan() {
