@@ -12,3 +12,5 @@ function startsesh() {
 }
 
 function getPlan() {
+	startsesh();
+    var xmlhttp = new XMLHttpRequest();
