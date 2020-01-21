@@ -7,3 +7,6 @@ function startsesh() {
             document.getElementById("headings").innerHTML = this.responseText;
         }
     };
+    xmlhttp.open("GET", "../php/session.php?q=", true);
+    xmlhttp.send(); 
+}
