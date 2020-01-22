@@ -19,3 +19,5 @@ function getPlan() {
             console.log(this.responseText);
             var text = document.getElementById("plantype")
             if(this.responseText == 0)
+                text.innerHTML = "Free";
+            else if(this.responseText == "1")
