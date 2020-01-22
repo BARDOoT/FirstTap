@@ -16,3 +16,6 @@ function getPlan() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+            var text = document.getElementById("plantype")
+            if(this.responseText == 0)
