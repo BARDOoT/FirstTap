@@ -23,3 +23,4 @@ function getPlan() {
             else if(this.responseText == "1")
                 text.innerHTML = "Silver";
             else if(this.responseText == "2")
+                text.innerHTML = "Gold";
