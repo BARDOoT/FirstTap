@@ -21,3 +21,5 @@ function getPlan() {
             if(this.responseText == 0)
                 text.innerHTML = "Free";
             else if(this.responseText == "1")
+                text.innerHTML = "Silver";
+            else if(this.responseText == "2")
