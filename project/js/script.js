@@ -24,3 +24,7 @@ function getPlan() {
                 text.innerHTML = "Silver";
             else if(this.responseText == "2")
                 text.innerHTML = "Gold";
+            
+        }
+    };
+    xmlhttp.open("GET", "../php/getPlan.php?q=", true);
