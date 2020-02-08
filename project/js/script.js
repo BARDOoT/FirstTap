@@ -29,3 +29,5 @@ function getPlan() {
     };
     xmlhttp.open("GET", "../php/getPlan.php?q=", true);
     xmlhttp.send(); 
+
+}
