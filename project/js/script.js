@@ -40,3 +40,6 @@ function callacc() {
             console.log(this.responseText);
             document.getElementById("accountheadings").innerHTML = this.responseText;
         }
+    };
+    xmlhttp.open("GET", "../php/accountinfo.php?q=", true);
+    xmlhttp.send(); 
