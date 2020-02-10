@@ -43,3 +43,6 @@ function callacc() {
     };
     xmlhttp.open("GET", "../php/accountinfo.php?q=", true);
     xmlhttp.send(); 
+
+    getTransactions();
+}
