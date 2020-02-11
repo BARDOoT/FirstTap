@@ -50,3 +50,6 @@ function callacc() {
 function getTransactions(){
     var xmlhttp2 = new XMLHttpRequest();
     xmlhttp2.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var table = document.getElementById("transTable");
+            var transArray = this.responseText.split("^");
