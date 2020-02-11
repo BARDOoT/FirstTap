@@ -46,3 +46,7 @@ function callacc() {
 
     getTransactions();
 }
+
+function getTransactions(){
+    var xmlhttp2 = new XMLHttpRequest();
+    xmlhttp2.onreadystatechange = function() {
