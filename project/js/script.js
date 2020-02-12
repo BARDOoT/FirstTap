@@ -53,3 +53,6 @@ function getTransactions(){
         if (this.readyState == 4 && this.status == 200) {
             var table = document.getElementById("transTable");
             var transArray = this.responseText.split("^");
+            transArray.pop();
+            transArray.forEach(function(transaction){
+                var transDetail = transaction.split("*");
