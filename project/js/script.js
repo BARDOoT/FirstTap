@@ -58,3 +58,4 @@ function getTransactions(){
                 var transDetail = transaction.split("*");
                 var row = createRow(transDetail);
                 table.appendChild(row);
+            });
