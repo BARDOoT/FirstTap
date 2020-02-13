@@ -57,3 +57,4 @@ function getTransactions(){
             transArray.forEach(function(transaction){
                 var transDetail = transaction.split("*");
                 var row = createRow(transDetail);
+                table.appendChild(row);
