@@ -59,3 +59,4 @@ function getTransactions(){
                 var row = createRow(transDetail);
                 table.appendChild(row);
             });
+        }
