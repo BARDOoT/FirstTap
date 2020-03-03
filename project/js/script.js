@@ -64,3 +64,6 @@ function getTransactions(){
     xmlhttp2.open("GET", "../php/transactionHistory.php", true);
     xmlhttp2.send(); 
 }
+
+function createRow(detail){
+    var row = document.createElement("TR");
