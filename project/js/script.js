@@ -70,3 +70,8 @@ function createRow(detail){
     var counter = 0;
     detail.forEach(function(cell){
         var x = row.insertCell(counter++);
+        x.innerHTML = cell;
+    });
+    return row;
+}
+
