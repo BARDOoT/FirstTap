@@ -67,3 +67,6 @@ function getTransactions(){
 
 function createRow(detail){
     var row = document.createElement("TR");
+    var counter = 0;
+    detail.forEach(function(cell){
+        var x = row.insertCell(counter++);
