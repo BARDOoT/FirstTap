@@ -60,3 +60,7 @@ function getTransactions(){
                 table.appendChild(row);
             });
         }
+    };
+    xmlhttp2.open("GET", "../php/transactionHistory.php", true);
+    xmlhttp2.send(); 
+}
