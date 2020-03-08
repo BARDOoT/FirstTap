@@ -75,3 +75,6 @@ function createRow(detail){
     return row;
 }
 
+
+
+
