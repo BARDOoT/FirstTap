@@ -4,3 +4,4 @@
 	if($_SESSION["user"] == ""){
         echo '<h1>You must be logged in. </h1><br><a href="../html/login.html">Log In</a>';
 		
+    } else {
