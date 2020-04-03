@@ -10,3 +10,5 @@
 		
         $user = $_SESSION["user"];
 		
+        $servername = "mars.cs.qc.cuny.edu";
+        $username = "kiye0230";
