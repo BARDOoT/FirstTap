@@ -12,3 +12,4 @@
 		
         $servername = "mars.cs.qc.cuny.edu";
         $username = "kiye0230";
+        $password = "23550230";
