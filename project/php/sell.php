@@ -8,3 +8,5 @@
 		include 'functions.php';
 		$amt = $_POST["amountToSell"];
 		
+        $user = $_SESSION["user"];
+		
