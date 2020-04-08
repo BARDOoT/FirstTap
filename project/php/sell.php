@@ -13,3 +13,6 @@
         $servername = "mars.cs.qc.cuny.edu";
         $username = "kiye0230";
         $password = "23550230";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password);
