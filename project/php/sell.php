@@ -20,3 +20,7 @@
         // Check connection
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
+        } else {
+    
+            $db_selected = mysqli_select_db($conn, 'kiye0230');
+            if (!$db_selected) {
