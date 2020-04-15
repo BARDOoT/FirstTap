@@ -24,3 +24,5 @@
     
             $db_selected = mysqli_select_db($conn, 'kiye0230');
             if (!$db_selected) {
+                die ('Can\'t use DB : ' . mysql_error());
+            } else{
