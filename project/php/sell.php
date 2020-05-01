@@ -30,3 +30,4 @@
                  
                 $sql = "SELECT coins,plan FROM accounts WHERE username = '$user';";
                 $result =  $conn->query($sql);
+				
