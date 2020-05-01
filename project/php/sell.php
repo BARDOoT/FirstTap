@@ -31,3 +31,6 @@
                 $sql = "SELECT coins,plan FROM accounts WHERE username = '$user';";
                 $result =  $conn->query($sql);
 				
+				if(!$result) {
+					echo 'Could not run query: ' . mysql_error();
+					exit;
