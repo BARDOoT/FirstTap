@@ -26,3 +26,6 @@
             if (!$db_selected) {
                 die ('Can\'t use DB : ' . mysql_error());
             } else{
+                //here good
+                 
+                $sql = "SELECT coins,plan FROM accounts WHERE username = '$user';";
