@@ -34,3 +34,5 @@
 				if(!$result) {
 					echo 'Could not run query: ' . mysql_error();
 					exit;
+				}
+				
