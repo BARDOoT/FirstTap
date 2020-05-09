@@ -36,3 +36,5 @@
 					exit;
 				}
 				
+				$row=$result->fetch_assoc();
+                $userbank = (int) $row['coins'];
