@@ -43,3 +43,5 @@
 					echo '<p>You cannot sell more than you have!</p><br><a href="../html/buysell.html">Click to return to the Buy/Sell page.</a>';
 					exit;
                 }
+
+                $total = $userbank - $amt;
