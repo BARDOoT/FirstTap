@@ -46,3 +46,8 @@
 
                 $total = $userbank - $amt;
                 //start
+
+                $userplan = (int) $row['plan'];  
+                if ($userplan == 0) {
+                    echo '<p>Selling '. $amt .' coins will get you $'.  ($amt - ($amt * .03  )).'  with your Free plan</p>';
+                } else if ($userplan == 1) {
