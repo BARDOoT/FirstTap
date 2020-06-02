@@ -54,3 +54,4 @@
                     echo '<p>Selling '. $amt .' coins will get you $'.  ($amt - ($amt * .01  )).'  with your Silver plan</p>';
                 } else if ($userplan == 2) {
                     echo '<p>Selling '. $amt .' coins will get you $'.  $amt.'  with your Gold plan</p>';
+                }
