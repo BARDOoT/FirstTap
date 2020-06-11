@@ -63,3 +63,5 @@
 				$sql = "UPDATE accounts SET coins = $total WHERE username = '$user';";
                 $conn->query($sql);
 				
+				$sql = "INSERT INTO transactions(id, sender, receiver, amount) VALUES (DEFAULT, '$user', 'QCOIN', $amt);";
+                $conn->query($sql);
