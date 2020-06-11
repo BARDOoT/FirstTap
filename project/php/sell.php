@@ -55,3 +55,7 @@
                 } else if ($userplan == 2) {
                     echo '<p>Selling '. $amt .' coins will get you $'.  $amt.'  with your Gold plan</p>';
                 }
+
+                //end
+				
+				$total = $userbank - $amt;
