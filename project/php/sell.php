@@ -59,3 +59,7 @@
                 //end
 				
 				$total = $userbank - $amt;
+				
+				$sql = "UPDATE accounts SET coins = $total WHERE username = '$user';";
+                $conn->query($sql);
+				
