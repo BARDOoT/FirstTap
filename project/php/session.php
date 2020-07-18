@@ -1,2 +1,2 @@
 <?php 
-session
+session_s
