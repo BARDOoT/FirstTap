@@ -1,2 +1,2 @@
 <?php 
-session_star
+session_start
