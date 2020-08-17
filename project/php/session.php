@@ -1,3 +1,3 @@
 <?php 
 session_start();
-      if($_SESSION["loggedin"] == 
+      if($_SESSION["loggedin"] == 1)
