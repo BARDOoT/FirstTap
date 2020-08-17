@@ -1,3 +1,3 @@
 <?php 
 session_start();
-      if($_SESSION["logge
+      if($_SESSION["loggedin"
