@@ -1,4 +1,4 @@
 <?php 
 session_start();
       if($_SESSION["loggedin"] == 1){
-	echo '<a class="btn
+	echo '<a class="btn 
