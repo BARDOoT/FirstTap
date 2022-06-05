@@ -10,4 +10,4 @@ session_start();
         echo '<a class="btn btn-primary" href="../php/logout.php"><h3>Sign Out</h3></a>';
         
         echo 'Logged in as: ', $_SESSION["user"];
-      
+      }
