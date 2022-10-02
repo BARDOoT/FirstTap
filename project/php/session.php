@@ -12,4 +12,4 @@ session_start();
         echo 'Logged in as: ', $_SESSION["user"];
       }
       else{
-        echo '<a class="btn btn-primary" href="../html/login.html"><h3>
+        echo '<a class="btn btn-primary" href="../html/login.html"><h3>Log
