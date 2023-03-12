@@ -13,4 +13,4 @@ session_start();
       }
       else{
         echo '<a class="btn btn-primary" href="../html/login.html"><h3>Login</h3></a>';
-        echo '<a class="btn btn-primary"
+        echo '<a class="btn btn-primary" h
