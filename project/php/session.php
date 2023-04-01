@@ -15,3 +15,4 @@ session_start();
         echo '<a class="btn btn-primary" href="../html/login.html"><h3>Login</h3></a>';
         echo '<a class="btn btn-primary" href="signup.html"><h3>SignUp</h3></a>';
       }
+ 
